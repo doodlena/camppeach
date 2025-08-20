@@ -55,6 +55,7 @@
 
 .navbar li {
   display: inline;
+  vertical-align: middle;
 }
 
 
