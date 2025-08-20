@@ -71,8 +71,9 @@
 
 .navbar a:hover {
   background-color: #f3d5b6;
-  color: #3e676d; 
-
+  color: #3e676d;
+  display: inline-block;
+  border-radius: 4px;
 }
 
 
