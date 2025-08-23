@@ -145,60 +145,6 @@ p {
 }
 
 
-.slider {
-  width: 1000px;
-  height: 500px;
-  overflow: hidden;
-  position: relative;
-}
-
-
-.slides {
-  display: flex;
-  width: 5000px;
-  animation: slide 15s infinite;
-}
-
-
-.slide {
-  width: 1000px;
-  height: 500px;
-  flex-shrink: 0;
-}
-
-
-@keyframes slide {
-
-  0%,
-  10% {
-    transform: translateX(0);
-  }
-
-  20%,
-  30% {
-    transform: translateX(-1000px);
-  }
-
-  40%,
-  50% {
-    transform: translateX(-2000px);
-  }
-
-  60%,
-  70% {
-    transform: translateX(-3000px);
-  }
-
-  80%,
-  90% {
-    transform: translateX(-4000px);
-  }
-
-  100% {
-    transform: translateX(0);
-  }
-}
-
 
 #map {
   height: 400px;
@@ -229,4 +175,19 @@ p {
 
 #pastwords {
   flex: 1 1 35%;
+}
+
+.even {
+  display: flex;
+  flex-direction: row;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 0px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.in-even {
+  flex: 1 1 50%;
+  padding: 50px;
 }
