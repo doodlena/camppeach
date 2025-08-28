@@ -200,10 +200,15 @@ p {
   font-size: 50px;
   font-weight: bolder;
   font-style: normal;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .in-even p {
   margin-top: 5px;
 }
 
+.dates li {
+  padding: 5px; 
+  font-family: "Gamja Flower";
+  font-size: 30px;
+}
