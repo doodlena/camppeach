@@ -809,7 +809,7 @@ footer a {
 /* Dots container */
 .dots-container {
   position: absolute;
-  bottom: 20px;
+  bottom: 40px;
   width: 100%;
   text-align: center;
   z-index: 15;
