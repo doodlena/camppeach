@@ -268,22 +268,49 @@ form input {
   font-family: "Gamja Flower";
 }
 
+/* Universal Button Styling */
+button, 
+.btn, 
+.apply-btn, 
+.gallery-button, 
+.submit-code-btn,
 form button {
-  margin-top: 20px;
   background-color: #3e676d;
   color: #f3d5b6;
   border: none;
-  padding: 12px 20px;
+  padding: 12px 24px;
   font-size: 20px;
   font-weight: bold;
-  border-radius: 5px;
+  border-radius: 8px;
   cursor: pointer;
-  transition: 0.3s;
-  font-family: "Gamja Flower";
+  transition: all 0.3s ease;
+  font-family: "Gamja Flower", cursive;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  box-shadow: 4px 4px 8px rgba(0,0,0,0.3);
+  margin: 5px;
 }
 
+button:hover, 
+.btn:hover, 
+.apply-btn:hover, 
+.gallery-button:hover, 
+.submit-code-btn:hover,
 form button:hover {
   background-color: #2b2b2b;
+  transform: translateY(-2px);
+  box-shadow: 6px 6px 12px rgba(0,0,0,0.4);
+}
+
+button:active, 
+.btn:active, 
+.apply-btn:active, 
+.gallery-button:active, 
+.submit-code-btn:active,
+form button:active {
+  transform: translateY(0);
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.3);
 }
 
 footer {
@@ -425,18 +452,6 @@ footer a {
   max-width: 600px;
 }
 
-.gallery-button {
-  background: #3e676d;
-  color: #fff;
-  padding: 15px 30px;
-  font-size: 20px;
-  border-radius: 8px;
-  box-shadow: 4px 4px 8px rgba(0,0,0,0.3);
-  cursor: pointer;
-  border: none;
-  text-decoration: none;
-}
-
 .code-box {
   display: none;
   margin-top: 20px;
@@ -447,17 +462,6 @@ footer a {
   font-size: 20px;
   display: block;
   margin-bottom: 10px;
-}
-
-.submit-code-btn {
-  background-color: #3e676d;
-  color: #f3d5b6;
-  border: none;
-  padding: 10px 20px;
-  font-size: 18px;
-  border-radius: 5px;
-  cursor: pointer;
-  margin-top: 10px;
 }
 
 .error-message {
@@ -551,15 +555,7 @@ footer a {
   color: #3e676d;
 }
 
-.apply-btn {
-  background: #3e676d;
-  color: #fff;
-  padding: 15px 30px;
-  font-size: 20px;
-  border-radius: 8px;
-  text-decoration: none;
-  box-shadow: 4px 4px 8px rgba(0,0,0,0.3);
-}
+
 
 .btn-container {
   text-align: center;
