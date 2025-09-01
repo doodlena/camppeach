@@ -1,4 +1,4 @@
-const scriptURL = 'https://script.google.com/macros/s/AKfycbwvkUDokdUH6gdbCO0SmP6t6BrVQ7WBPvI0EHBPP-gRnbNiYAM2FpEO1VDDZZZDitoP/exec';
+const scriptURL = 'https://script.google.com/macros/s/AKfycbx5_tkwcUH5OVFVl_ll_StM6dX-sfZOLT_oKispjBnDv8eoLVgnU_fKx0b-5MIF2Bxs/exec';
 const form = document.getElementById('mailingListForm');
 const responseMsg = document.getElementById('formResponse');
 
@@ -28,11 +28,11 @@ form.addEventListener('submit', async (e) => {
     if (text === 'Success') {
       responseMsg.innerText = '🎉 Thanks for joining the Camp PEACH mailing list!';
       form.style.display = 'none';
-      localStorage.setItem(SUB_KEY, '1');
+     // localStorage.setItem(SUB_KEY, '1');
     } else if (text === 'Duplicate') {
       responseMsg.innerText = '⚠️ This email is already signed up!';
     } else if (text === 'SheetNotFound') {
-      responseMsg.innerText = '⚠️ There appears to be an internal server error. (Instead, email camppeach@gmail.com and we will notify you once it is fixed.';
+      responseMsg.innerText = '⚠️ There appears to be an internal server error. (Instead, email camppeach@gmail.com and we will notify you once it is fixed.)';
     } else if (text === 'BadRequest') {
       responseMsg.innerText = '⚠️ Please enter both name and email.';
     } else {
