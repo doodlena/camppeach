@@ -1,5 +1,5 @@
-const scriptURL   = 'https://script.google.com/macros/s/AKfycbwvkUDokdUH6gdbCO0SmP6t6BrVQ7WBPvI0EHBPP-gRnbNiYAM2FpEO1VDDZZZDitoP/exec';
-const form        = document.getElementById('mailingListForm');
+const scriptURL = 'https://script.google.com/macros/s/AKfycbwvkUDokdUH6gdbCO0SmP6t6BrVQ7WBPvI0EHBPP-gRnbNiYAM2FpEO1VDDZZZDitoP/exec';
+const form = document.getElementById('mailingListForm');
 const responseMsg = document.getElementById('formResponse');
 
 const SUB_KEY = 'campPeachSubscribed';
