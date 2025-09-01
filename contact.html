@@ -37,13 +37,13 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body style="background-color:#f3d5b6; color:#2b2b2b;">
+<body class="page-body">
 
     <!-- NAVIGATION -->
     <nav class="navbar" aria-label="Main navigation">
         <ul>
             <li><a href="index.html" aria-label="Camp PEACH Home">
-                    <img src="assets/peach1.png" alt="Camp PEACH Logo" style="height:65px; padding:2px;">
+                    <img src="assets/peach1.png" alt="Camp PEACH Logo" class="logo-img">
                 </a></li>
             <li><a href="about.html">ABOUT US</a></li>
             <li><a href="past.html">ACTIVITIES</a></li>
@@ -55,7 +55,7 @@
 
     <!-- PAGE TITLE -->
     <header>
-        <h1 class="title henny-penny" style="color:#3e676d; margin-top:100px; margin-bottom: 0px;">Contact Us</h1>
+        <h1 class="title henny-penny contact-title">Contact Us</h1>
     </header>
 
     <!-- CONTACT INFO -->
@@ -71,17 +71,15 @@
 
         <!-- MAILING LIST FORM -->
         <div class="form-container">
-            <h2 class="name" style="color:#3e676d">Join Our Mailing List</h2>
+            <h2 class="name contact-form-title">Join Our Mailing List</h2>
             <p>Stay updated on camp news, registration dates, and activities!</p>
 
             <form id="mailingListForm">
                 <label for="name">Your Name</label>
-                <input type="text" id="name" name="name" required placeholder="Enter your name"
-                    style="background-color: #2b2b2b; color: #e5989b;">
+                <input type="text" id="name" name="name" required placeholder="Enter your name" class="contact-name-text">
 
                 <label for="email">Your Email</label>
-                <input type="email" id="email" name="email" required placeholder="Enter your email"
-                    style="background-color: #2b2b2b; color: #e5989b;">
+                <input type="email" id="email" name="email" required placeholder="Enter your email" class="contact-email-text">
 
                 <button type="submit">Join Mailing List</button>
             </form>
@@ -93,9 +91,9 @@
     </section>
 
     <!-- FOOTER -->
-    <footer style="text-align:center; padding:20px; background:#2b2b2b; color:#f3d5b6; width:100%; margin-top:40px;">
+    <footer class="footer-contact">
         <p>&copy; 2025 Camp PEACH. All rights reserved.</p>
-        <p><a href="contact.html" style="color:#e5989b; text-decoration:underline;">Contact Us</a></p>
+        <p><a href="contact.html" class="footer-link">Contact Us</a></p>
     </footer>
 
 </body>

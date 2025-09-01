@@ -329,3 +329,395 @@ footer a {
   border-color: #e5989b;
   box-shadow: 0 0 8px rgba(229, 152, 155, 0.6);
 }
+
+/* Page layout classes */
+.page-body {
+  background-color: #f3d5b6;
+  color: #2b2b2b;
+  margin: 0;
+}
+
+.logo-img {
+  height: 65px;
+  padding: 2px;
+}
+
+.hero-section {
+  height: 600px;
+  margin: 0;
+  background-color: #3e676d;
+  border: 20px solid #3e676d;
+  text-align: center;
+}
+
+.hero-title {
+  padding: 25px;
+  color: #f3d5b6;
+  padding-top: 50px;
+}
+
+.hero-subtitle {
+  padding: 25px;
+  margin-top: 160px;
+  color: #e5989b;
+  font-size: 50px;
+}
+
+.svg-wave {
+  width: 100%;
+  height: 150px;
+  display: block;
+}
+
+.about-section {
+  min-height: 600px;
+  background-color: #f3d5b6;
+  padding: 40px 0;
+}
+
+.about-title {
+  color: #3e676d;
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+.about-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin: 0 10%;
+}
+
+.about-text {
+  font-size: 28px;
+  max-width: 600px;
+}
+
+.about-img {
+  width: 40%;
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.2);
+  border-radius: 10px;
+}
+
+.activities-section {
+  min-height: 700px;
+  background-color: #e5989b;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding: 40px;
+}
+
+.video-container {
+  max-width: 500px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.2);
+}
+
+.activities-text {
+  font-size: 28px;
+  color: #2b2b2b;
+  margin-right: 100px;
+  max-width: 600px;
+}
+
+.gallery-button {
+  background: #3e676d;
+  color: #fff;
+  padding: 15px 30px;
+  font-size: 20px;
+  border-radius: 8px;
+  box-shadow: 4px 4px 8px rgba(0,0,0,0.3);
+  cursor: pointer;
+  border: none;
+  text-decoration: none;
+}
+
+.code-box {
+  display: none;
+  margin-top: 20px;
+}
+
+.code-label {
+  font-family: 'Gamja Flower';
+  font-size: 20px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.submit-code-btn {
+  background-color: #3e676d;
+  color: #f3d5b6;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.error-message {
+  color: red;
+  font-family: 'Gamja Flower';
+  margin-top: 10px;
+  display: none;
+}
+
+.footer-standard {
+  text-align: center;
+  padding: 20px;
+  background: #2b2b2b;
+  color: #f3d5b6;
+}
+
+.footer-link {
+  color: #e5989b;
+  text-decoration: underline;
+}
+
+/* About page specific */
+.mission-section {
+  text-align: center;
+  padding: 40px;
+  background: #e5989b;
+  margin-top: 150px;
+  border-radius: 10px;
+  box-shadow: 6px 6px 12px rgba(0,0,0,0.25);
+  width: 90%;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mission-title {
+  color: #3e676d;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.mission-text {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 22px;
+  line-height: 1.6;
+  color: #2b2b2b;
+}
+
+.page-title {
+  padding: 25px;
+  color: #3e676d;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.counselor-section {
+  display: flex;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 1000px;
+  background: #f3d5b6;
+  box-shadow: 6px 6px 12px rgba(0,0,0,0.25);
+}
+
+.counselor-img-container {
+  flex: 1;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.counselor-img {
+  width: 70%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.counselor-text-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+
+.counselor-name {
+  color: #3e676d;
+}
+
+.apply-btn {
+  background: #3e676d;
+  color: #fff;
+  padding: 15px 30px;
+  font-size: 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  box-shadow: 4px 4px 8px rgba(0,0,0,0.3);
+}
+
+.btn-container {
+  text-align: center;
+  margin: 50px 0;
+}
+
+/* Contact page */
+.contact-title {
+  color: #3e676d;
+  margin-top: 100px;
+  margin-bottom: 0px;
+}
+
+.contact-email-text {
+  background-color: #2b2b2b;
+  color: #e5989b;
+}
+
+.contact-name-text {
+  background-color: #2b2b2b;
+  color: #e5989b;
+}
+
+.contact-form-title {
+  color: #3e676d;
+}
+
+.footer-contact {
+  text-align: center;
+  padding: 20px;
+  background: #2b2b2b;
+  color: #f3d5b6;
+  width: 100%;
+  margin-top: 40px;
+}
+
+/* Info page */
+.info-title {
+  padding: 25px;
+  margin-top: 80px;
+  color: #3e676d;
+  text-align: center;
+}
+
+.schedule-section {
+  padding: 40px 0;
+}
+
+.schedule-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.schedule-text {
+  width: 70%;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.schedule-link {
+  color: #3e676d;
+  font-weight: bold;
+}
+
+.schedule-img-container {
+  height: 400px;
+}
+
+.schedule-img {
+  width: 100%;
+  height: 95%;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.2);
+}
+
+.dates-section {
+  padding: 40px 0;
+  text-align: center;
+}
+
+.dates-title {
+  color: #e5989b;
+}
+
+.dates-text {
+  width: 80%;
+  margin: auto;
+  font-size: 22px;
+  line-height: 1.5;
+}
+
+.calendar-section {
+  padding: 40px 0;
+}
+
+.calendar-img-container {
+  height: 400px;
+}
+
+.calendar-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.2);
+}
+
+.calendar-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.calendar-title {
+  color: #3e676d;
+}
+
+.dates-list {
+  list-style: none;
+  padding: 0;
+  font-size: 20px;
+}
+
+/* Past page */
+.activities-title {
+  padding: 25px;
+  margin-top: 80px;
+  color: #3e676d;
+  text-align: center;
+}
+
+.activity-img-container {
+  height: 400px;
+}
+
+.activity-img {
+  width: 80%;
+  height: 100%;
+  border-radius: 10px;
+  box-shadow: 6px 6px 12px rgba(0,0,0,0.25);
+}
+
+.activity-text-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.activity-name {
+  color: #e5989b;
+}
+
+.activity-description {
+  width: 65%;
+  font-size: 18px;
+}
+
+/* Regi page */
+.regi-title {
+  color: #3e676d;
+  margin-top: 100px;
+}

@@ -39,13 +39,13 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body style="background-color:#f3d5b6; margin:0;">
+<body class="page-body">
 
     <!-- NAVIGATION -->
     <nav class="navbar" aria-label="Main navigation">
         <ul>
             <li><a href="index.html" aria-label="Camp PEACH Home">
-                    <img src="assets/peach1.png" alt="Camp PEACH Logo" style="height:65px; padding:2px;"> </a></li>
+                    <img src="assets/peach1.png" alt="Camp PEACH Logo" class="logo-img"> </a></li>
             <li><a href="about.html">ABOUT US</a></li>
             <li><a href="past.html">ACTIVITIES</a></li>
             <li><a href="info.html">INFORMATION</a></li>
@@ -55,10 +55,9 @@
     </nav>
 
     <!-- OUR MISSION -->
-    <section
-        style="text-align:center; padding:40px; background:#e5989b; margin-top:150px; border-radius:10px; box-shadow:6px 6px 12px rgba(0,0,0,0.25); width:90%; max-width:1000px; margin-left:auto; margin-right:auto;">
-        <h2 class="henny-penny" style="color:#3e676d; font-size:40px; margin-bottom:20px;">Our Mission</h2>
-        <p style="max-width:800px; margin:0 auto; font-size:22px; line-height:1.6; color:#2b2b2b;">
+    <section class="mission-section">
+        <h2 class="henny-penny mission-title">Our Mission</h2>
+        <p class="mission-text">
             At Camp PEACH, our mission is to create a hands-on environment where campers can explore their interests and
             passions through activities designed to foster imagination and creativity. We believe that every camper
             should participate in a variety of activities while building friendships and having fun.
@@ -67,7 +66,7 @@
 
     <!-- PAGE TITLE -->
     <header>
-        <h1 class="title henny-penny" style="padding:25px; color:#3e676d; margin-top:40px; text-align:center;">
+        <h1 class="title henny-penny page-title">
             Meet Our Counselors
         </h1>
     </header>
@@ -75,16 +74,12 @@
     <!-- COUNSELOR SECTIONS -->
     <main>
         <!-- Counselor: Emi -->
-        <section class="even" aria-labelledby="counselor-emi"
-            style="display:flex; margin:30px auto; padding:20px; border-radius:10px; width:90%; max-width:1000px; background:#f3d5b6; box-shadow:6px 6px 12px rgba(0,0,0,0.25);">
-            <div class="in-even center"
-                style="flex:1; height:400px; display:flex; justify-content:center; align-items:center;">
-                <img src="assets/emi.png" alt="Counselor Emi at Camp PEACH"
-                    style="width:70%; height:auto; border-radius:10px;">
+        <section class="even counselor-section" aria-labelledby="counselor-emi">
+            <div class="in-even center counselor-img-container">
+                <img src="assets/emi.png" alt="Counselor Emi at Camp PEACH" class="counselor-img">
             </div>
-            <div class="in-even center"
-                style="flex:1; display:flex; flex-direction:column; justify-content:center; padding:20px;">
-                <h2 id="counselor-emi" class="name" style="color:#3e676d;">Emi</h2>
+            <div class="in-even center counselor-text-container">
+                <h2 id="counselor-emi" class="name counselor-name">Emi</h2>
                 <p>Emi is currently a sophomore at Yorktown High School who loves working with kids and playing violin.
                     Emi enjoys designing fun and engaging activities for our camp and sharing her baking expertise with
                     the campers. Emi is also an experienced babysitter who is Red Cross Certified, and a Sundar School
@@ -93,34 +88,26 @@
         </section>
 
         <!-- Counselor: Charlotte -->
-        <section class="even" aria-labelledby="counselor-charlotte"
-            style="display:flex; margin:30px auto; padding:20px; border-radius:10px; width:90%; max-width:1000px; background:#f3d5b6; box-shadow:6px 6px 12px rgba(0,0,0,0.25);">
-            <div class="in-even center"
-                style="flex:1; display:flex; flex-direction:column; justify-content:center; padding:20px;">
-                <h2 id="counselor-charlotte" class="name" style="color:#3e676d;">Charlotte</h2>
+        <section class="even counselor-section" aria-labelledby="counselor-charlotte">
+            <div class="in-even center counselor-text-container">
+                <h2 id="counselor-charlotte" class="name counselor-name">Charlotte</h2>
                 <p>Charlotte is currently an 8th grader at Saint James Catholic School who likes reading books and
                     playing the piano. At our camp, Charlottle enjoys organizing outdoor activities as well as leading
                     bible studies where she shares her love for storytelling. Charlotte is also a Sunday School Teacher,
                     Mother's Helper, and Red Cross Certified. </p>
             </div>
-            <div class="in-even center"
-                style="flex:1; height:400px; display:flex; justify-content:center; align-items:center;">
-                <img src="assets/charlotte.jpg" alt="Counselor Charlotte leading activities at Camp PEACH"
-                    style="width:70%; height:auto; border-radius:10px;">
+            <div class="in-even center counselor-img-container">
+                <img src="assets/charlotte.jpg" alt="Counselor Charlotte leading activities at Camp PEACH" class="counselor-img">
             </div>
         </section>
 
         <!-- Counselor: Hannah -->
-        <section class="even" aria-labelledby="counselor-hannah"
-            style="display:flex; margin:30px auto; padding:20px; border-radius:10px; width:90%; max-width:1000px; background:#f3d5b6; box-shadow:6px 6px 12px rgba(0,0,0,0.25);">
-            <div class="in-even center"
-                style="flex:1; height:400px; display:flex; justify-content:center; align-items:center;">
-                <img src="assets/charlotte.jpg" alt="Counselor Hannah engaging with children at Camp PEACH"
-                    style="width:70%; height:auto; border-radius:10px;">
+        <section class="even counselor-section" aria-labelledby="counselor-hannah">
+            <div class="in-even center counselor-img-container">
+                <img src="assets/charlotte.jpg" alt="Counselor Hannah engaging with children at Camp PEACH" class="counselor-img">
             </div>
-            <div class="in-even center"
-                style="flex:1; display:flex; flex-direction:column; justify-content:center; padding:20px;">
-                <h2 id="counselor-hannah" class="name" style="color:#3e676d;">Hannah</h2>
+            <div class="in-even center counselor-text-container">
+                <h2 id="counselor-hannah" class="name counselor-name">Hannah</h2>
                 <p>Hannah is currently an 8th grader at HB Woodlawn who can name any Taylor Swift song within two
                     seconds of the intro! She enjoys sharing her passion for music with our campers while fostering
                     creativity. Hannah is also a Camp Counselor at Camp Levine, a Sunday School Teacher, and a Mother's
@@ -130,18 +117,17 @@
         </section>
 
         <!-- CONTACT BUTTON -->
-        <div style="text-align:center; margin:50px 0;">
-            <a href="contact.html" class="apply-btn"
-                style="background:#3e676d; color:#fff; padding:15px 30px; font-size:20px; border-radius:8px; text-decoration:none; box-shadow:4px 4px 8px rgba(0,0,0,0.3);">
+        <div class="btn-container">
+            <a href="contact.html" class="apply-btn">
                 🌟 Questions? Contact Us
             </a>
         </div>
     </main>
 
     <!-- FOOTER -->
-    <footer style="text-align:center; padding:20px; background:#2b2b2b; color:#f3d5b6;">
+    <footer class="footer-standard">
         <p>&copy; 2025 Camp PEACH. All rights reserved.</p>
-        <p><a href="contact.html" style="color:#e5989b; text-decoration:underline;">Get in Touch</a></p>
+        <p><a href="contact.html" class="footer-link">Get in Touch</a></p>
     </footer>
 </body>
 

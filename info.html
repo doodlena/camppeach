@@ -37,13 +37,13 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body style="background-color:#f3d5b6; color:#2b2b2b; margin:0;">
+<body class="page-body">
 
     <!-- NAVIGATION (unchanged) -->
     <nav class="navbar" aria-label="Main navigation">
         <ul>
             <li><a href="index.html" aria-label="Camp PEACH Home">
-                    <img src="assets/peach1.png" alt="Camp PEACH Logo" style="height:65px; padding:2px;">
+                    <img src="assets/peach1.png" alt="Camp PEACH Logo" class="logo-img">
                 </a></li>
             <li><a href="about.html">ABOUT US</a></li>
             <li><a href="past.html">ACTIVITIES</a></li>
@@ -55,46 +55,44 @@
 
     <!-- PAGE TITLE -->
     <header>
-        <h1 class="title henny-penny" style="padding:25px; margin-top:80px; color:#3e676d; text-align:center;">
+        <h1 class="title henny-penny info-title">
             General Information
         </h1>
     </header>
 
     <!-- SCHEDULE SECTION -->
-    <section class="even" style="padding:40px 0;">
-        <div class="in-even center" style="display:flex; flex-direction:column; justify-content:center;">
-            <h2 class="name" style="color:#e5989b;">Example Schedule</h2>
-            <p style="width:70%; font-size:20px; line-height:1.5;">
+    <section class="even schedule-section">
+        <div class="in-even center schedule-text-container">
+            <h2 class="name activity-name">Example Schedule</h2>
+            <p class="schedule-text">
                 Curious about a day at Camp PEACH? Check out our sample schedule below!
                 Every session is packed with engaging activities, creative projects,
                 and outdoor adventures designed for kids ages 4–7.
-                Visit our <a href="past.html" style="color:#3e676d; font-weight:bold;">Activities Page</a> to learn
+                Visit our <a href="past.html" class="schedule-link">Activities Page</a> to learn
                 more.
             </p>
         </div>
-        <div class="in-even center" style="height:400px;">
-            <img src="assets/schedule.png" alt="Sample daily schedule for Camp PEACH campers"
-                style="width:100%; height:95%; border-radius:10px; box-shadow:5px 5px 15px rgba(0,0,0,0.2);">
+        <div class="in-even center schedule-img-container">
+            <img src="assets/schedule.png" alt="Sample daily schedule for Camp PEACH campers" class="schedule-img">
         </div>
     </section>
 
     <!-- UPCOMING DATES -->
-    <section style="padding:40px 0; text-align:center;">
-        <h2 class="name" style="color:#e5989b;">Tentative Dates for Next Year</h2>
-        <p style="width:80%; margin:auto; font-size:22px; line-height:1.5;">
+    <section class="dates-section">
+        <h2 class="name dates-title">Tentative Dates for Next Year</h2>
+        <p class="dates-text">
             Here are the preliminary dates for Camp PEACH 2026! Please note that these
             weeks are subject to change as we finalize our schedule.
         </p>
     </section>
 
-    <section class="even" style="padding:40px 0;">
-        <div class="in-even" style="height:400px;">
-            <img src="assets/calendar.png" alt="Calendar illustration representing Camp PEACH dates"
-                style="width:100%; height:100%; border-radius:10px; box-shadow:5px 5px 15px rgba(0,0,0,0.2);">
+    <section class="even calendar-section">
+        <div class="in-even calendar-img-container">
+            <img src="assets/calendar.png" alt="Calendar illustration representing Camp PEACH dates" class="calendar-img">
         </div>
-        <div class="in-even center" style="display:flex; flex-direction:column; justify-content:center;">
-            <h3 class="name" style="color:#3e676d;">Weeks (Unfinalized)</h3>
-            <ul class="dates" style="list-style:none; padding:0; font-size:20px;">
+        <div class="in-even center calendar-text-container">
+            <h3 class="name calendar-title">Weeks (Unfinalized)</h3>
+            <ul class="dates dates-list">
                 <li>August 5 – 9, 2026</li>
                 <li>August 12 – 16, 2026</li>
                 <li>August 19 – 23, 2026</li>
@@ -103,9 +101,9 @@
     </section>
 
     <!-- FOOTER -->
-    <footer style="text-align:center; padding:20px; background:#2b2b2b; color:#f3d5b6;">
+    <footer class="footer-standard">
         <p>&copy; 2025 Camp PEACH. All rights reserved.</p>
-        <p><a href="contact.html" style="color:#e5989b; text-decoration:underline;">Contact Us</a></p>
+        <p><a href="contact.html" class="footer-link">Contact Us</a></p>
     </footer>
 
 </body>

@@ -39,12 +39,12 @@
 </head>
 
 
-<body style="background-color:#f3d5b6; color:#2b2b2b; margin:0;">
+<body class="page-body">
     <!-- NAVIGATION -->
     <nav class="navbar" aria-label="Main navigation">
         <ul>
             <li><a href="index.html" aria-label="Camp PEACH Home">
-                    <img src="assets/peach1.png" alt="Camp PEACH Logo" style="height:65px; padding:2px;"> </a></li>
+                    <img src="assets/peach1.png" alt="Camp PEACH Logo" class="logo-img"> </a></li>
             <li><a href="about.html">ABOUT US</a></li>
             <li><a href="past.html">ACTIVITIES</a></li>
             <li><a href="info.html">INfORMATION</a></li>
@@ -54,56 +54,52 @@
     </nav>
 
     <!-- HERO SECTION -->
-    <header class="first-image part1"
-        style="height:600px; margin:0; background-color:#3e676d; border:20px solid #3e676d; text-align:center;">
-        <h1 class="title henny-penny" style="padding:25px; color:#f3d5b6; padding-top:50px;">Camp PEACH</h1>
-        <h2 class="marck-script" style="padding:25px; margin-top:160px; color:#e5989b; font-size:50px;">
+    <header class="first-image part1 hero-section">
+        <h1 class="title henny-penny hero-title">Camp PEACH</h1>
+        <h2 class="marck-script hero-subtitle">
             A Week-Long Summer Camp for Ages 4–7
         </h2>
     </header>
 
     <svg viewBox="0 0 1440 150" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"
-        style="width:100%; height:150px; display:block;" role="presentation" aria-hidden="true">
+        class="svg-wave" role="presentation" aria-hidden="true">
         <path fill="#3e676d" d="M0,150 C360,50 720,250 1080,50 C1260,-25 1440,150 1440,150 L1440,0 L0,0 Z"></path>
     </svg>
 
     <!-- ABOUT US -->
-    <section class="part2 part1 div2" id="about" style="min-height:600px; background-color:#f3d5b6; padding:40px 0;">
-        <h2 class="h1_div2 londrina-shadow"
-            style="color:#3e676d; text-align:center; font-size:50px; margin-bottom:30px;">
+    <section class="part2 part1 div2 about-section" id="about">
+        <h2 class="h1_div2 londrina-shadow about-title">
             Who Are We?
         </h2>
-        <div class="flex_r" style="display:flex; align-items:center; justify-content:center; gap:40px; margin:0 10%;">
-            <p style="font-size:28px; max-width:600px;">
+        <div class="flex_r about-flex">
+            <p class="about-text">
                 Camp PEACH is a summer camp designed for children ages 4–7. We offer fun, engaging, and educational
                 activities
                 that encourage creativity, teamwork, and adventure in a safe and nurturing environment.
             </p>
-            <img src="assets/water1.png" width="40%"
-                style="box-shadow:5px 5px 15px rgba(0,0,0,0.2); border-radius:10px;"
+            <img src="assets/water1.png" class="about-img"
                 alt="Children enjoying water activities at Camp PEACH summer camp">
         </div>
     </section>
 
     <svg viewBox="0 0 1440 150" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"
-        style="width:100%; height:150px; display:block;" role="presentation" aria-hidden="true">
+        class="svg-wave" role="presentation" aria-hidden="true">
         <path fill="#e5989b"
             d="M0,0 C200,50 400,0 600,50 C800,100 1000,0 1200,50 C1350,100 1440,50 1440,50 L1440,150 L0,150 Z"></path>
     </svg>
 
     <!-- ACTIVITIES -->
-    <section class="part2 flex_r" id="activities"
-        style="min-height:700px; background-color:#e5989b; margin:0; display:flex; align-items:center; justify-content:center; gap:40px; padding:40px;">
+    <section class="part2 flex_r activities-section" id="activities">
         <div id="pastimg" class="center">
-            <video width="100%" style="max-width:500px; border-radius:10px; box-shadow:5px 5px 15px rgba(0,0,0,0.2);"
+            <video width="100%" class="video-container"
                 autoplay muted loop controls aria-label="Camp PEACH montage video showing camp activities">
                 <source src="assets/montage.mp4" type="video/mp4">
                 Your browser does not support this video. Please watch our camp montage on Camp PEACH's official
                 website.
             </video>
         </div>
-        <div id="pastwords" class="center" style="max-width:600px;">
-            <p style="font-size:28px; color:#2b2b2b; margin-right: 100px;">
+        <div id="pastwords" class="center">
+            <p class="activities-text">
                 From arts and crafts to outdoor adventures, Camp PEACH offers a wide range of activities that
                 help children learn, explore, and make new friends.
             </p>
@@ -112,25 +108,22 @@
     </section>
 
     <!-- GALLERY BUTTON WITH CODE CHECK -->
-    <div style="text-align:center; margin:50px 0;">
-        <button id="showCodeBox" class="gallery-btn"
-            style="background:#3e676d; color:#fff; padding:15px 30px; font-size:20px; border-radius:8px; text-decoration:none; box-shadow:4px 4px 8px rgba(0,0,0,0.3); cursor:pointer;">
+    <div class="btn-container">
+        <button id="showCodeBox" class="gallery-button">
             📸 View More Photos
         </button>
 
         <!-- Hidden Code Box -->
-        <div id="codeBox" style="display:none; margin-top:20px;">
-            <label for="accessCode"
-                style="font-family:'Gamja Flower'; font-size:20px; display:block; margin-bottom:10px;">
+        <div id="codeBox" class="code-box">
+            <label for="accessCode" class="code-label">
                 Enter Access Code:
             </label>
             <input type="password" id="accessCode" placeholder="Enter code here" class="code-input">
 
-            <button id="submitCode"
-                style="background-color:#3e676d; color:#f3d5b6; border:none; padding:10px 20px; font-size:18px; border-radius:5px; cursor:pointer; margin-top:10px;">
+            <button id="submitCode" class="submit-code-btn">
                 Submit
             </button>
-            <p id="errorMsg" style="color:red; font-family:'Gamja Flower'; margin-top:10px; display:none;">
+            <p id="errorMsg" class="error-message">
                 ❌ Incorrect code, please try again!
             </p>
         </div>
@@ -140,9 +133,9 @@
     </main>
 
     <!-- FOOTER -->
-    <footer style="text-align:center; padding:20px; background:#2b2b2b; color:#f3d5b6;">
+    <footer class="footer-standard">
         <p>&copy; 2025 Camp PEACH. All rights reserved.</p>
-        <p><a href="contact.html" style="color:#e5989b; text-decoration:underline;">Get in Touch</a></p>
+        <p><a href="contact.html" class="footer-link">Get in Touch</a></p>
     </footer>
 
 </body>
