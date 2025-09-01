@@ -54,15 +54,42 @@
     </nav>
 
     <!-- HERO SECTION -->
-    <header class="first-image part1 hero-section">
-        <h1 class="title henny-penny hero-title">Camp PEACH</h1>
-        <h2 class="marck-script hero-subtitle">
-            A Week-Long Summer Camp for Ages 4–7
-        </h2>
+    <header class="hero-section slideshow-container">
+        <!-- Slide 1 -->
+        <div class="slides fade">
+            <img src="assets/playground6a.png" class="slideshow-img" alt="Camp PEACH Playground">
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="slides fade">
+            <img src="assets/water1.png" class="slideshow-img" alt="Camp PEACH Nature Walk">
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="slides fade">
+            <img src="assets/peach1.png" class="slideshow-img" alt="Camp PEACH Nature Walk">
+        </div>
+
+        <!-- Text overlay -->
+        <div class="slideshow-text">
+            <h1 class="title henny-penny hero-title">Camp PEACH</h1>
+            <h2 class="marck-script hero-subtitle">A Week-Long Summer Camp for Ages 4–7</h2>
+        </div>
+
+        <!-- Dots -->
+        <div class="dots-container">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
     </header>
 
-    <svg viewBox="0 0 1440 150" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"
-        class="svg-wave" role="presentation" aria-hidden="true">
+
+
+    <script src="slide.js"></script>
+
+    <svg viewBox="0 0 1440 150" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" class="svg-wave"
+        role="presentation" aria-hidden="true">
         <path fill="#3e676d" d="M0,150 C360,50 720,250 1080,50 C1260,-25 1440,150 1440,150 L1440,0 L0,0 Z"></path>
     </svg>
 
@@ -82,8 +109,8 @@
         </div>
     </section>
 
-    <svg viewBox="0 0 1440 150" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"
-        class="svg-wave" role="presentation" aria-hidden="true">
+    <svg viewBox="0 0 1440 150" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" class="svg-wave"
+        role="presentation" aria-hidden="true">
         <path fill="#e5989b"
             d="M0,0 C200,50 400,0 600,50 C800,100 1000,0 1200,50 C1350,100 1440,50 1440,50 L1440,150 L0,150 Z"></path>
     </svg>
@@ -91,8 +118,8 @@
     <!-- ACTIVITIES -->
     <section class="part2 flex_r activities-section" id="activities">
         <div id="pastimg" class="center">
-            <video width="100%" class="video-container"
-                autoplay muted loop controls aria-label="Camp PEACH montage video showing camp activities">
+            <video width="100%" class="video-container" autoplay muted loop controls
+                aria-label="Camp PEACH montage video showing camp activities">
                 <source src="assets/montage.mp4" type="video/mp4">
                 Your browser does not support this video. Please watch our camp montage on Camp PEACH's official
                 website.
