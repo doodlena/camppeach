@@ -7,39 +7,17 @@
   font-size: 100px;
 }
 
-
 .henny-penny {
   font-family: "Henny Penny", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
-
 .marck-script {
   font-family: "Marck Script", cursive;
   font-weight: 600;
   font-style: normal;
 }
-
-
-.first-image {
-  background-image: url("assets/playground6a.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  padding: 0px;
-}
-
-
-.a_image1 {
-  background-image: url("./assets/savannah2.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  padding: 0px;
-  margin: 0px;
-}
-
 
 .navbar {
   background-color: #3e676d;
@@ -49,19 +27,16 @@
   width: 100%;
 }
 
-
 .navbar ul {
   list-style-type: none;
   margin: 0;
   padding-bottom: 2px;
 }
 
-
 .navbar li {
   display: inline;
   vertical-align: middle;
 }
-
 
 .navbar a {
   color: #f3d5b6;
@@ -73,14 +48,12 @@
   font-size: 25px;
 }
 
-
 .navbar a:hover {
   background-color: #f3d5b6;
   color: #3e676d;
   display: inline-block;
   border-radius: 4px;
 }
-
 
 .gamja-flower {
   font-family: "Gamja Flower", sans-serif;
@@ -97,17 +70,6 @@ body {
   width: 100%;
 }
 
-
-.part1 {
-  justify-content: center;
-  align-items: center;
-}
-
-.part2 {
-  justify-content: center;
-  align-items: center;
-}
-
 svg {
   display: block;
   margin: 0;
@@ -115,24 +77,11 @@ svg {
   line-height: 0;
 }
 
-.div2 {
-  background-color: #fefedf;
-}
-
-.h1_div2 {
-  text-align: center;
-  margin: 0px;
-  padding: 50px;
-  font-size: 50px;
-}
-
-
 .londrina-shadow {
   font-family: "Londrina Shadow", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
-
 
 .flex_r {
   display: flex;
@@ -140,7 +89,6 @@ svg {
   justify-content: space-evenly;
   align-content: space-evenly;
 }
-
 
 p {
   font-family: "Gamja Flower";
@@ -152,49 +100,10 @@ p {
   font-size: 25px;
 }
 
-.counselor li {
-  font-family: "Gamja Flower";
-  font-size: 20px;
-  text-align: center;
-}
-
 .center {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-
-
-#map {
-  height: 400px;
-  width: 600px;
-}
-
-
-.r_li {
-  font-size: 25px;
-  text-align: left;
-  font-family: "Marck script";
-  padding: 25px;
-}
-
-.r_li a {
-  color: blue;
-  text-decoration: none;
-}
-
-
-.columns {
-  flex-direction: column;
-}
-
-#pastimg {
-  flex: 1 1 65%;
-}
-
-#pastwords {
-  flex: 1 1 35%;
 }
 
 .even {
@@ -236,10 +145,14 @@ p {
 }
 
 .form-container {
-  background: #f3d5b6;
-  padding: 25px;
-  border-radius: 10px;
+  background: #e5989b;
+  padding: 35px;
+  border-radius: 12px;
   box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.15);
+  width: 85%;
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
 }
 
 form label {
@@ -316,17 +229,6 @@ footer {
 footer a {
   color: #e5989b;
   text-decoration: underline;
-}
-
-.form-container {
-  background: #e5989b;
-  padding: 35px;
-  border-radius: 12px;
-  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.15);
-  width: 85%;
-  max-width: 600px;
-  margin: auto;
-  text-align: center;
 }
 
 .code-input {
@@ -551,8 +453,6 @@ footer a {
   color: #3e676d;
 }
 
-
-
 .btn-container {
   text-align: center;
   margin: 50px 0;
@@ -732,12 +632,10 @@ footer a {
   margin: 40px auto;
   max-width: 700px;
   font-size: 1.3em;
-  /* Bigger default font */
 }
 
 .regi-closed-text {
   font-size: 1.5em;
-  /* Make the closed message stand out */
   margin-bottom: 20px;
   color: #2b2b2b;
 }
@@ -770,23 +668,21 @@ footer a {
   box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.4);
 }
 
-/* Make sure slideshow is positioned */
+/* Slideshow */
 .slideshow-container {
   position: relative;
   overflow: hidden;
 }
 
-/* Images fill header */
 .slides img {
   width: 100%;
   height: 775px;
-  /* same as your hero-section */
   object-fit: cover;
   border: 25px solid #3e676d;
 }
 
-/* Text overlay */
 .slideshow-text {
+  background: transparent;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -805,46 +701,19 @@ footer a {
   z-index: 15;
 }
 
-/* Dots default */
 .dot {
   height: 15px;
   width: 15px;
   margin: 0 5px;
   background-color: #bbb;
-  /* light grey default */
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
   cursor: pointer;
 }
 
-/* Active dot */
 .dot.active {
   background-color: #2b2b2b;
-  /* charcoal grey */
-}
-
-/* Navbar stays above slideshow */
-.navbar {
-  background-color: #3e676d;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 1000;
-  /* ensures it overlays slideshow */
-}
-
-/* Slideshow text transparent background */
-.slideshow-text {
-  background: transparent;
-  /* no opaque box */
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  color: #f3d5b6;
-  z-index: 10;
 }
 
 /* Hamburger Menu Styles */
@@ -1127,4 +996,3 @@ footer a {
     height: 500px;
   }
 }
-</media>
