@@ -972,20 +972,30 @@ footer a {
   }
 
   .about-img {
-    width: 80%;
-    margin: 20px auto;
+    width: 70%;
+    margin: 15px auto;
   }
 
   .activity-img {
-    width: 90%;
-    margin: 20px auto;
+    width: 75%;
+    margin: 15px auto;
   }
 
   .schedule-img-container,
   .calendar-img-container,
   .activity-img-container {
     height: auto;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
+  }
+
+  .schedule-img {
+    width: 90%;
+    height: auto;
+  }
+
+  .calendar-img {
+    width: 90%;
+    height: auto;
   }
 
   .schedule-text,
@@ -1004,32 +1014,81 @@ footer a {
   }
 
   .counselor-img {
-    width: 80%;
-    margin: 20px auto;
+    width: 60%;
+    margin: 15px auto;
+  }
+
+  .counselor-img-container {
+    height: auto;
   }
 
   /* Make titles smaller on mobile */
   .title {
-    font-size: 60px;
+    font-size: 40px;
   }
 
   .hero-title {
-    font-size: 60px;
-    margin-bottom: 50px;
+    font-size: 45px;
+    margin-bottom: 30px;
   }
 
   .hero-subtitle {
-    font-size: 28px;
+    font-size: 22px;
   }
 
   /* Adjust navbar for mobile */
   .navbar a {
     padding: 6px 10px 14px 10px;
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .logo-img {
-    height: 50px;
+    height: 40px;
+  }
+
+  /* Reduce general text sizes */
+  p {
+    font-size: 18px;
+  }
+
+  .about-text {
+    font-size: 20px;
+  }
+
+  .activities-text {
+    font-size: 20px;
+  }
+
+  .schedule-text {
+    font-size: 18px;
+  }
+
+  .dates-text {
+    font-size: 18px;
+  }
+
+  .activity-description {
+    font-size: 16px;
+  }
+
+  .name {
+    font-size: 35px;
+  }
+
+  .mission-text {
+    font-size: 18px;
+  }
+
+  .mission-title {
+    font-size: 32px;
+  }
+
+  .about-title {
+    font-size: 40px;
+  }
+
+  .dates li {
+    font-size: 20px;
   }
 
   /* Make video responsive */
