@@ -1091,6 +1091,28 @@ footer a {
     font-size: 20px;
   }
 
+  /* Registration page mobile text sizes */
+  .regi-section {
+    font-size: 1em;
+  }
+
+  .regi-closed-text {
+    font-size: 1.2em;
+  }
+
+  .regi-links p {
+    font-size: 20px;
+  }
+
+  .regi-links a {
+    font-size: 18px;
+    padding: 10px 18px;
+  }
+
+  .regi-title {
+    font-size: 40px;
+  }
+
   /* Make video responsive */
   .video-container {
     max-width: 100%;
