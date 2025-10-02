@@ -855,7 +855,7 @@ footer a {
   padding: 10px;
   position: fixed;
   top: 15px;
-  right: 20px;
+  left: 20px;
   z-index: 2000;
   background-color: #3e676d;
   border-radius: 5px;
@@ -873,17 +873,17 @@ footer a {
   display: none;
   position: fixed;
   top: 0;
-  right: -300px;
+  left: -300px;
   width: 250px;
   height: 100vh;
   background-color: #3e676d;
-  transition: right 0.3s ease;
+  transition: left 0.3s ease;
   z-index: 1500;
   padding-top: 60px;
 }
 
 .mobile-nav.active {
-  right: 0;
+  left: 0;
 }
 
 .mobile-nav ul {
