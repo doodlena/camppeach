@@ -846,3 +846,107 @@ footer a {
   color: #f3d5b6;
   z-index: 10;
 }
+
+/* Mobile Responsive Styles */
+@media screen and (max-width: 768px) {
+  /* Make all flex rows become columns on mobile */
+  .even {
+    flex-direction: column !important;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .about-flex {
+    flex-direction: column;
+  }
+
+  .activities-section {
+    flex-direction: column;
+  }
+
+  .flex_r {
+    flex-direction: column;
+  }
+
+  /* Adjust image and text containers for mobile */
+  .in-even {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .about-img {
+    width: 80%;
+    margin: 20px auto;
+  }
+
+  .activity-img {
+    width: 90%;
+    margin: 20px auto;
+  }
+
+  .schedule-img-container,
+  .calendar-img-container,
+  .activity-img-container {
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .schedule-text,
+  .activity-description {
+    width: 100%;
+  }
+
+  .activities-text {
+    margin-right: 0;
+    text-align: center;
+  }
+
+  /* Adjust counselor sections for mobile */
+  .counselor-section {
+    flex-direction: column;
+  }
+
+  .counselor-img {
+    width: 80%;
+    margin: 20px auto;
+  }
+
+  /* Make titles smaller on mobile */
+  .title {
+    font-size: 60px;
+  }
+
+  .hero-title {
+    font-size: 60px;
+    margin-bottom: 50px;
+  }
+
+  .hero-subtitle {
+    font-size: 28px;
+  }
+
+  /* Adjust navbar for mobile */
+  .navbar a {
+    padding: 6px 10px 14px 10px;
+    font-size: 18px;
+  }
+
+  .logo-img {
+    height: 50px;
+  }
+
+  /* Make video responsive */
+  .video-container {
+    max-width: 100%;
+  }
+
+  /* Adjust hero section height on mobile */
+  .hero-section {
+    height: 500px;
+  }
+
+  .slides img {
+    height: 500px;
+  }
+}
+</media>
