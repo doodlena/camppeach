@@ -1,5 +1,8 @@
 name: PR preview (deploy to gh-pages/pr-<number>)
 
+permissions:
+  contents: write
+
 on:
   pull_request:
     types: [opened, synchronize, reopened]
