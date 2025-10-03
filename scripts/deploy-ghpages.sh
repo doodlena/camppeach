@@ -24,6 +24,15 @@ echo "Using temp dir: $TMPDIR"
 # Copy files into temp dir
 rsync -a --delete "$BUILD_DIR/" "$TMPDIR/"
 
+# Also copy common static asset directories (if they exist) so CSS, JS and
+# images are published at the site root on gh-pages.
+for d in css js assets; do
+  if [ -d "$d" ]; then
+    echo "Including directory: $d"
+    rsync -a "$d" "$TMPDIR/"
+  fi
+done
+
 pushd "$TMPDIR" >/dev/null
 git init
 git checkout -b gh-pages
