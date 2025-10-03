@@ -1,0 +1,4 @@
+127.0.0.1 - - [03/Oct/2025 00:49:31] "GET /html/index.html HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2025 00:49:33] "GET /assets/index/montage.mp4 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Oct/2025 00:49:33] code 404, message File not found
+127.0.0.1 - - [03/Oct/2025 00:49:33] "GET /favicon.ico HTTP/1.1" 404 -

@@ -1,0 +1,12 @@
+[server]
+port = 80
+host = "0.0.0.0"
+
+[routes]
+# Serve files from the repository root. Keep directory listing off.
+public = "."
+list = false
+
+[fallback]
+# Fallback to html/index.html for single-page friendly routing
+path = "html/index.html"
