@@ -38,14 +38,21 @@ jobs:
           fi
           cd ..
 
-      - name: Copy site into PR folder
+      - name: Copy site and assets into PR folder
         env:
           PR_NUM: ${{ github.event.number }}
         run: |
           set -euo pipefail
           TARGET=gh-pages/pr-${PR_NUM}
           mkdir -p "$TARGET"
+          # copy HTML pages
           rsync -a --delete html/ "$TARGET/"
+          # also copy common static asset directories so previews include css/js/images
+          for d in css js assets; do
+            if [ -d "$d" ]; then
+              rsync -a --delete "$d" "$TARGET/$d"
+            fi
+          done
 
       - name: Commit and push preview to gh-pages
         env:
