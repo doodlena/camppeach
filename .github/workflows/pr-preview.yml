@@ -50,7 +50,9 @@ jobs:
           # also copy common static asset directories so previews include css/js/images
           for d in css js assets; do
             if [ -d "$d" ]; then
-              rsync -a --delete "$d" "$TARGET/$d"
+              # copy the contents of the asset directory into the target's same-named dir
+              mkdir -p "$TARGET/$d"
+              rsync -a --delete "$d/" "$TARGET/$d/"
             fi
           done
 
