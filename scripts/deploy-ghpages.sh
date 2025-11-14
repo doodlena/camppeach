@@ -35,12 +35,13 @@ done
 
 pushd "$TMPDIR" >/dev/null
 git init
+git remote add origin "$REMOTE"
 git checkout -b gh-pages
 git add -A
 git commit -m "Deploy site: $(date -u +%Y-%m-%dT%H:%M:%SZ)"
 
 echo "Pushing to remote $REMOTE (branch gh-pages)"
-git push --force "$REMOTE" gh-pages
+git push --force origin gh-pages
 popd >/dev/null
 
 rm -rf "$TMPDIR"
