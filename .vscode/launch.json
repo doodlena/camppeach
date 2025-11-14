@@ -5,20 +5,9 @@
       "name": "Open Site in Browser",
       "type": "chrome",
       "request": "launch",
-  "preLaunchTask": "Dev:serve",
+      "preLaunchTask": "Dev:serve",
       "url": "http://127.0.0.1:8000/html/index.html",
       "webRoot": "${workspaceFolder}"
-    },
-    {
-      "name": "Open Site Externally",
-      "type": "chrome",
-      "request": "launch",
-  "preLaunchTask": "Dev:serve",
-      "url": "http://127.0.0.1:8000/html/index.html",
-      "webRoot": "${workspaceFolder}",
-      "userDataDir": "${workspaceFolder}/.vscode/chrome-user-data",
-      "runtimeArgs": ["--new-window"],
-      "presentation": { "hidden": false }
     }
   ]
 }
