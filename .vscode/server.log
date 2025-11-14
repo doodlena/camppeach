@@ -1,5 +1,40 @@
-127.0.0.1 - - [14/Nov/2025 23:30:10] "GET /html/index.html HTTP/1.1" 200 -
-127.0.0.1 - - [14/Nov/2025 23:30:12] "GET /html/index.html HTTP/1.1" 304 -
-127.0.0.1 - - [14/Nov/2025 23:30:12] "GET /assets/index/montage.mp4 HTTP/1.1" 200 -
-127.0.0.1 - - [14/Nov/2025 23:30:13] code 404, message File not found
-127.0.0.1 - - [14/Nov/2025 23:30:13] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [14/Nov/2025 23:33:36] "GET /html/index.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 23:33:37] "GET /html/index.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 23:33:37] "GET /css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [14/Nov/2025 23:33:37] "GET /assets/peach1.png HTTP/1.1" 304 -
+127.0.0.1 - - [14/Nov/2025 23:33:37] "GET /assets/index/slides/slide1.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [14/Nov/2025 23:33:38] "GET /js/slide.js HTTP/1.1" 304 -
+127.0.0.1 - - [14/Nov/2025 23:33:38] "GET /js/menu.js HTTP/1.1" 304 -
+127.0.0.1 - - [14/Nov/2025 23:33:38] "GET /js/config.js HTTP/1.1" 304 -
+127.0.0.1 - - [14/Nov/2025 23:33:38] "GET /js/photo.js HTTP/1.1" 304 -
+127.0.0.1 - - [14/Nov/2025 23:33:38] "GET /assets/index/slides/slide2.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [14/Nov/2025 23:33:38] "GET /assets/index/slides/slide3.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [14/Nov/2025 23:33:38] "GET /assets/index/who-r-we.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [14/Nov/2025 23:33:38] "GET /assets/index/montage.mp4 HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 23:33:38] code 404, message File not found
+127.0.0.1 - - [14/Nov/2025 23:33:38] "GET /favicon.ico HTTP/1.1" 404 -
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 33566)
+Traceback (most recent call last):
+  File "/home/codespace/.python/current/lib/python3.12/socketserver.py", line 692, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/home/codespace/.python/current/lib/python3.12/http/server.py", line 1311, in finish_request
+    self.RequestHandlerClass(request, client_address, self,
+  File "/home/codespace/.python/current/lib/python3.12/http/server.py", line 672, in __init__
+    super().__init__(*args, **kwargs)
+  File "/home/codespace/.python/current/lib/python3.12/socketserver.py", line 761, in __init__
+    self.handle()
+  File "/home/codespace/.python/current/lib/python3.12/http/server.py", line 436, in handle
+    self.handle_one_request()
+  File "/home/codespace/.python/current/lib/python3.12/http/server.py", line 424, in handle_one_request
+    method()
+  File "/home/codespace/.python/current/lib/python3.12/http/server.py", line 679, in do_GET
+    self.copyfile(f, self.wfile)
+  File "/home/codespace/.python/current/lib/python3.12/http/server.py", line 878, in copyfile
+    shutil.copyfileobj(source, outputfile)
+  File "/home/codespace/.python/current/lib/python3.12/shutil.py", line 204, in copyfileobj
+    fdst_write(buf)
+  File "/home/codespace/.python/current/lib/python3.12/socketserver.py", line 840, in write
+    self._sock.sendall(b)
+BrokenPipeError: [Errno 32] Broken pipe
+----------------------------------------
