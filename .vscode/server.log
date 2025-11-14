@@ -1,15 +1,5 @@
-127.0.0.1 - - [14/Nov/2025 23:20:58] "GET /html/index.html HTTP/1.1" 200 -
-127.0.0.1 - - [14/Nov/2025 23:21:00] "GET /html/index.html HTTP/1.1" 200 -
-127.0.0.1 - - [14/Nov/2025 23:21:00] "GET /css/style.css HTTP/1.1" 200 -
-127.0.0.1 - - [14/Nov/2025 23:21:00] "GET /assets/peach1.png HTTP/1.1" 200 -
-127.0.0.1 - - [14/Nov/2025 23:21:00] "GET /assets/index/slides/slide1.jpg HTTP/1.1" 200 -
-127.0.0.1 - - [14/Nov/2025 23:21:00] "GET /js/slide.js HTTP/1.1" 200 -
-127.0.0.1 - - [14/Nov/2025 23:21:00] "GET /js/menu.js HTTP/1.1" 200 -
-127.0.0.1 - - [14/Nov/2025 23:21:00] "GET /js/photo.js HTTP/1.1" 200 -
-127.0.0.1 - - [14/Nov/2025 23:21:00] "GET /js/config.js HTTP/1.1" 200 -
-127.0.0.1 - - [14/Nov/2025 23:21:00] "GET /assets/index/slides/slide2.jpg HTTP/1.1" 200 -
-127.0.0.1 - - [14/Nov/2025 23:21:00] "GET /assets/index/slides/slide3.jpg HTTP/1.1" 200 -
-127.0.0.1 - - [14/Nov/2025 23:21:00] "GET /assets/index/montage.mp4 HTTP/1.1" 200 -
-127.0.0.1 - - [14/Nov/2025 23:21:00] "GET /assets/index/who-r-we.jpg HTTP/1.1" 200 -
-127.0.0.1 - - [14/Nov/2025 23:21:02] code 404, message File not found
-127.0.0.1 - - [14/Nov/2025 23:21:02] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [14/Nov/2025 23:30:10] "GET /html/index.html HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 23:30:12] "GET /html/index.html HTTP/1.1" 304 -
+127.0.0.1 - - [14/Nov/2025 23:30:12] "GET /assets/index/montage.mp4 HTTP/1.1" 200 -
+127.0.0.1 - - [14/Nov/2025 23:30:13] code 404, message File not found
+127.0.0.1 - - [14/Nov/2025 23:30:13] "GET /favicon.ico HTTP/1.1" 404 -
