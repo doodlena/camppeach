@@ -741,6 +741,34 @@ footer a {
   box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.4);
 }
 
+.regi-button {
+  margin-top: 70px;
+}
+
+.regi-button p {
+  font-size: 50px;
+}
+
+.regi-button a {
+  background-color: #3e676d;
+  color: #f3d5b6;
+  padding: 40px 80px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 3em;
+  font-weight: bold;
+  margin: 30px;
+  display: inline-block;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+}
+
+.regi-button a:hover {
+  background-color: #2b2b2b;
+  transform: translateY(-2px);
+  box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.4);
+}
+
 /* Slideshow */
 .slideshow-container {
   position: relative;

@@ -1,94 +1,21 @@
-127.0.0.1 - - [01/Jan/2026 18:31:05] "GET /html/index.html HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 18:31:07] "GET /html/assets/index/montage.mp4 HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 18:31:07] code 404, message File not found
-127.0.0.1 - - [01/Jan/2026 18:31:07] "GET /favicon.ico HTTP/1.1" 404 -
-127.0.0.1 - - [01/Jan/2026 18:31:13] "GET /html/about.html HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 18:31:14] "GET /html/assets/index/counselors/audrey.jpg HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 18:31:16] "GET /html/assets/index/counselors/phoebe.jpg HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 18:32:24] "GET /html/about.html HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 18:32:24] "GET /html/css/style.css HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 18:32:24] "GET /html/assets/peach1.png HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 18:32:25] "GET /html/js/menu.js HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 18:32:25] "GET /html/assets/index/counselors/emi.JPEG HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 18:32:25] "GET /html/assets/index/counselors/audrey.jpg HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 18:32:25] "GET /html/assets/index/counselors/hannah.jpg HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 18:32:26] "GET /html/assets/index/counselors/charlotte.jpg HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 18:32:30] "GET /html/assets/index/counselors/phoebe.jpg HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 18:35:17] "GET /html/about.html HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 18:35:17] "GET /html/css/style.css HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 18:35:17] "GET /html/assets/peach1.png HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 18:35:17] "GET /html/js/menu.js HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 18:35:17] "GET /html/assets/index/counselors/emi.JPEG HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 18:35:17] "GET /html/assets/index/counselors/hannah.jpg HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 18:35:17] "GET /html/assets/index/counselors/charlotte.jpg HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 18:35:17] "GET /html/assets/index/counselors/audrey.jpg HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 18:35:18] "GET /html/assets/index/counselors/phoebe.jpg HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 18:37:27] "GET /html/about.html HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 18:37:27] "GET /html/css/style.css HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 18:37:27] "GET /html/assets/index/counselors/audrey.jpg HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 18:38:28] "GET /html/about.html HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 18:38:28] "GET /html/css/style.css HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 18:38:28] "GET /html/js/menu.js HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 18:38:29] "GET /html/assets/peach1.png HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 18:38:29] "GET /html/assets/index/counselors/hannah.jpg HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 18:38:29] "GET /html/assets/index/counselors/charlotte.jpg HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 18:38:29] "GET /html/assets/index/counselors/emi.JPEG HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 18:38:29] "GET /html/assets/index/counselors/audrey.jpg HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 18:38:32] "GET /html/about.html HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 18:38:32] "GET /html/css/style.css HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 18:39:05] "GET /html/about.html HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 18:39:05] "GET /html/css/style.css HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 18:39:33] "GET /html/about.html HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 18:39:33] "GET /html/css/style.css HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 18:40:19] "GET /html/about.html HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 18:40:19] "GET /html/css/style.css HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 18:40:20] "GET /html/assets/index/counselors/audrey.jpg HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 18:41:12] "GET /html/about.html HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 18:41:12] "GET /html/css/style.css HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 18:41:38] "GET /html/about.html HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 18:41:38] "GET /html/css/style.css HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 18:41:38] "GET /html/assets/peach1.png HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 18:41:38] "GET /html/js/menu.js HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 18:41:38] "GET /html/assets/index/counselors/emi.JPEG HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 18:41:38] "GET /html/assets/index/counselors/audrey.jpg HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 18:41:38] "GET /html/assets/index/counselors/charlotte.jpg HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 18:41:38] "GET /html/assets/index/counselors/hannah.jpg HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 18:41:54] "GET /html/about.html HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 18:41:54] "GET /html/css/style.css HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 18:42:03] "GET /html/about.html HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 18:42:03] "GET /html/css/style.css HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 18:42:08] "GET /html/assets/index/counselors/phoebe.jpg HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 18:43:04] "GET /html/about.html HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 18:43:04] "GET /html/css/style.css HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 18:43:04] "GET /html/assets/index/counselors/audrey.jpg HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 18:43:24] "GET /html/about.html HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 18:43:24] "GET /html/css/style.css HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 18:44:17] "GET /html/about.html HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 18:44:17] "GET /html/css/style.css HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 18:44:18] "GET /html/assets/index/counselors/phoebe.jpg HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 18:44:35] "GET /html/about.html HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 18:44:35] "GET /html/css/style.css HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 18:44:59] "GET /html/about.html HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 18:44:59] "GET /html/css/style.css HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 18:44:59] "GET /html/assets/peach1.png HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 18:44:59] "GET /html/js/menu.js HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 18:44:59] "GET /html/assets/index/counselors/audrey.jpg HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 18:44:59] "GET /html/assets/index/counselors/hannah.jpg HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 18:44:59] "GET /html/assets/index/counselors/charlotte.jpg HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 18:45:00] "GET /html/assets/index/counselors/emi.JPEG HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 18:45:49] "GET /html/index.html HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 18:45:49] "GET /html/css/style.css HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 18:45:49] "GET /html/assets/index/slides/slide1.jpg HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 18:45:49] "GET /html/js/slide.js HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 18:45:49] "GET /html/js/config.js HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 18:45:49] "GET /html/js/photo.js HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 18:45:49] "GET /html/assets/index/slides/slide2.jpg HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 18:45:49] "GET /html/assets/index/slides/slide3.jpg HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 18:45:49] "GET /html/assets/index/who-r-we.jpg HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 18:45:49] "GET /html/assets/index/montage.mp4 HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 18:45:51] "GET /html/about.html HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jan/2026 19:23:00] "GET /html/index.html HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jan/2026 19:23:02] "GET /html/index.html HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jan/2026 19:23:02] "GET /html/css/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jan/2026 19:23:02] "GET /html/assets/peach1.png HTTP/1.1" 304 -
+127.0.0.1 - - [01/Jan/2026 19:23:02] "GET /html/assets/index/slides/slide1.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [01/Jan/2026 19:23:02] "GET /html/js/slide.js HTTP/1.1" 304 -
+127.0.0.1 - - [01/Jan/2026 19:23:02] "GET /html/js/menu.js HTTP/1.1" 304 -
+127.0.0.1 - - [01/Jan/2026 19:23:02] "GET /html/js/config.js HTTP/1.1" 304 -
+127.0.0.1 - - [01/Jan/2026 19:23:02] "GET /html/js/photo.js HTTP/1.1" 304 -
+127.0.0.1 - - [01/Jan/2026 19:23:02] "GET /html/assets/index/slides/slide2.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [01/Jan/2026 19:23:02] "GET /html/assets/index/slides/slide3.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [01/Jan/2026 19:23:02] "GET /html/assets/index/who-r-we.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [01/Jan/2026 19:23:02] "GET /html/assets/index/montage.mp4 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jan/2026 19:23:03] code 404, message File not found
+127.0.0.1 - - [01/Jan/2026 19:23:03] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [01/Jan/2026 19:23:03] "GET /html/regi.html HTTP/1.1" 200 -
 ----------------------------------------
-Exception occurred during processing of request from ('127.0.0.1', 34822)
+Exception occurred during processing of request from ('127.0.0.1', 57434)
 Traceback (most recent call last):
   File "/home/codespace/.python/current/lib/python3.12/socketserver.py", line 692, in process_request_thread
     self.finish_request(request, client_address)
@@ -112,119 +39,38 @@ Traceback (most recent call last):
     self._sock.sendall(b)
 BrokenPipeError: [Errno 32] Broken pipe
 ----------------------------------------
-127.0.0.1 - - [01/Jan/2026 18:45:53] "GET /html/past.html HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 18:45:53] "GET /html/assets/past/activities/water.jpg HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 18:45:53] "GET /html/assets/past/activities/cupcake.jpg HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 18:45:53] "GET /html/assets/past/activities/bingo.jpg HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 18:45:53] "GET /html/assets/past/activities/bracelet.jpg HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 18:45:53] "GET /html/assets/past/activities/playground.jpg HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 18:45:55] "GET /html/assets/past/activities/walk.jpg HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 18:46:06] "GET /html/info.html HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 18:46:06] "GET /html/css/style.css HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 18:46:06] "GET /html/assets/info/calendar.png HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 18:46:06] "GET /html/assets/info/schedule.png HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 18:46:11] "GET /html/regi.html HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 18:46:12] "GET /html/contact.html HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 18:46:12] "GET /html/js/script.js HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 18:46:16] "GET /html/info.html HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 18:46:16] "GET /html/past.html HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 18:47:32] "GET /html/past.html HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 18:47:32] "GET /html/css/style.css HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 18:48:02] "GET /html/past.html HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 18:48:02] "GET /html/css/style.css HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 18:48:17] "GET /html/info.html HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 18:48:38] "GET /html/info.html HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 18:48:38] "GET /html/css/style.css HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 18:48:38] "GET /html/js/menu.js HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 18:48:38] "GET /html/assets/peach1.png HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 18:49:35] "GET /html/info.html HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 18:49:35] "GET /html/css/style.css HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 18:49:55] "GET /html/info.html HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 18:49:55] "GET /html/assets/info/schedule.png HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 18:49:55] "GET /html/assets/info/calendar.png HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 18:50:04] "GET /html/info.html HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 18:50:23] "GET /html/info.html HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 18:50:23] "GET /html/css/style.css HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 18:50:24] "GET /html/info.html HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 18:50:33] "GET /html/info.html HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 18:51:01] "GET /html/info.html HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 18:51:05] "GET /html/about.html HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 18:51:05] "GET /html/assets/index/counselors/emi.JPEG HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 18:51:05] "GET /html/assets/index/counselors/audrey.jpg HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 18:51:05] "GET /html/assets/index/counselors/hannah.jpg HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 18:51:06] "GET /html/assets/index/counselors/charlotte.jpg HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 18:51:06] "GET /html/assets/index/counselors/phoebe.jpg HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 18:51:09] "GET /html/past.html HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 18:51:09] "GET /html/css/style.css HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 18:51:09] "GET /html/js/config.js HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 18:51:09] "GET /html/js/photo.js HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 18:51:09] "GET /html/assets/past/activities/bingo.jpg HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 18:51:09] "GET /html/assets/past/activities/bracelet.jpg HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 18:51:09] "GET /html/assets/past/activities/water.jpg HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 18:51:09] "GET /html/assets/past/activities/cupcake.jpg HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 18:51:09] "GET /html/assets/past/activities/playground.jpg HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 18:51:10] "GET /html/assets/past/activities/walk.jpg HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 18:51:17] "GET /html/info.html HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 18:51:47] "GET /html/info.html HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 18:52:38] "GET /html/info.html HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 18:52:38] "GET /html/css/style.css HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 18:52:38] "GET /html/assets/peach1.png HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 18:52:38] "GET /html/js/menu.js HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 18:52:46] "GET /html/past.html HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 18:52:46] "GET /html/css/style.css HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 18:53:57] "GET /html/past.html HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 18:53:58] "GET /html/css/style.css HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 18:54:25] "GET /html/index.html HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 18:54:25] "GET /html/css/style.css HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 18:54:25] "GET /html/assets/index/slides/slide1.jpg HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 18:54:25] "GET /html/js/slide.js HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 18:54:25] "GET /html/assets/index/slides/slide3.jpg HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 18:54:25] "GET /html/assets/index/slides/slide2.jpg HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 18:54:25] "GET /html/assets/index/who-r-we.jpg HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 18:54:25] "GET /html/assets/index/montage.mp4 HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 18:54:26] "GET /html/about.html HTTP/1.1" 200 -
-----------------------------------------
-Exception occurred during processing of request from ('127.0.0.1', 60894)
-Traceback (most recent call last):
-  File "/home/codespace/.python/current/lib/python3.12/socketserver.py", line 692, in process_request_thread
-    self.finish_request(request, client_address)
-  File "/home/codespace/.python/current/lib/python3.12/http/server.py", line 1311, in finish_request
-    self.RequestHandlerClass(request, client_address, self,
-  File "/home/codespace/.python/current/lib/python3.12/http/server.py", line 672, in __init__
-    super().__init__(*args, **kwargs)
-  File "/home/codespace/.python/current/lib/python3.12/socketserver.py", line 761, in __init__
-    self.handle()
-  File "/home/codespace/.python/current/lib/python3.12/http/server.py", line 436, in handle
-    self.handle_one_request()
-  File "/home/codespace/.python/current/lib/python3.12/http/server.py", line 424, in handle_one_request
-    method()
-  File "/home/codespace/.python/current/lib/python3.12/http/server.py", line 679, in do_GET
-    self.copyfile(f, self.wfile)
-  File "/home/codespace/.python/current/lib/python3.12/http/server.py", line 878, in copyfile
-    shutil.copyfileobj(source, outputfile)
-  File "/home/codespace/.python/current/lib/python3.12/shutil.py", line 204, in copyfileobj
-    fdst_write(buf)
-  File "/home/codespace/.python/current/lib/python3.12/socketserver.py", line 840, in write
-    self._sock.sendall(b)
-BrokenPipeError: [Errno 32] Broken pipe
-----------------------------------------
-127.0.0.1 - - [01/Jan/2026 18:54:26] "GET /html/assets/index/counselors/audrey.jpg HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 18:54:27] "GET /html/assets/index/counselors/phoebe.jpg HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 18:54:29] "GET /html/past.html HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 18:54:32] "GET /html/info.html HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 18:54:32] "GET /html/assets/info/schedule.png HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 18:54:32] "GET /html/assets/info/calendar.png HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 18:54:37] "GET /html/regi.html HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 18:54:37] "GET /html/css/style.css HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 18:54:39] "GET /html/contact.html HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 18:54:39] "GET /html/js/script.js HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 18:55:08] "GET /html/contact.html HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 18:55:08] "GET /html/css/style.css HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 18:56:01] "GET /html/contact.html HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 18:56:01] "GET /html/css/style.css HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 18:56:17] "GET /html/contact.html HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 18:56:17] "GET /html/css/style.css HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 18:56:28] "GET /html/contact.html HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 18:56:28] "GET /html/css/style.css HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 18:56:38] "GET /html/contact.html HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 18:56:39] "GET /html/css/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jan/2026 19:25:37] "GET /html/regi.html HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jan/2026 19:25:37] "GET /html/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [01/Jan/2026 19:26:04] "GET /html/regi.html HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jan/2026 19:26:04] "GET /html/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [01/Jan/2026 19:26:14] "GET /html/regi.html HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jan/2026 19:27:06] "GET /html/regi.html HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jan/2026 19:27:06] "GET /html/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [01/Jan/2026 19:27:06] "GET /html/assets/index/montage.mp4 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jan/2026 19:29:32] "GET /html/regi.html HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jan/2026 19:29:33] "GET /html/css/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jan/2026 19:29:33] "GET /html/assets/index/montage.mp4 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jan/2026 19:29:50] "GET /html/regi.html HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jan/2026 19:29:50] "GET /html/css/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jan/2026 19:29:50] "GET /html/assets/index/montage.mp4 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jan/2026 19:30:01] "GET /html/regi.html HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jan/2026 19:30:01] "GET /html/css/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jan/2026 19:30:01] "GET /html/assets/index/montage.mp4 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jan/2026 19:30:15] "GET /html/regi.html HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jan/2026 19:30:15] "GET /html/css/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jan/2026 19:30:15] "GET /html/assets/index/montage.mp4 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jan/2026 19:30:34] "GET /html/regi.html HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jan/2026 19:30:34] "GET /html/css/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jan/2026 19:30:34] "GET /html/assets/peach1.png HTTP/1.1" 304 -
+127.0.0.1 - - [01/Jan/2026 19:30:34] "GET /html/js/menu.js HTTP/1.1" 304 -
+127.0.0.1 - - [01/Jan/2026 19:30:34] "GET /html/assets/index/montage.mp4 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jan/2026 19:31:02] "GET /html/index.html HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jan/2026 19:31:02] "GET /html/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [01/Jan/2026 19:31:02] "GET /html/js/slide.js HTTP/1.1" 304 -
+127.0.0.1 - - [01/Jan/2026 19:31:02] "GET /html/assets/index/slides/slide1.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [01/Jan/2026 19:31:02] "GET /html/js/config.js HTTP/1.1" 304 -
+127.0.0.1 - - [01/Jan/2026 19:31:02] "GET /html/js/photo.js HTTP/1.1" 304 -
+127.0.0.1 - - [01/Jan/2026 19:31:02] "GET /html/assets/index/montage.mp4 HTTP/1.1" 200 -
+127.0.0.1 - - [01/Jan/2026 19:31:02] "GET /html/assets/index/slides/slide3.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [01/Jan/2026 19:31:02] "GET /html/assets/index/slides/slide2.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [01/Jan/2026 19:31:02] "GET /html/assets/index/who-r-we.jpg HTTP/1.1" 304 -
