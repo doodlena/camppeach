@@ -7,8 +7,8 @@
 
     <!-- SEO Meta Tags -->
     <meta name="description"
-        content="Register your child for Camp PEACH, a fun summer camp for ages 4–7! Registration is currently closed — check back soon for updates.">
-    <meta name="keywords" content="Camp Peach, summer camp registration, kids camp ages 4-7, summer programs">
+        content="Register your child for Camp PEACH, a fun summer camp for ages 2-9! Registration is currently closed — check back soon for updates.">
+    <meta name="keywords" content="Camp Peach, summer camp registration, kids camp ages 2-9, summer programs">
     <meta name="author" content="Camp PEACH Team">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -39,6 +39,23 @@
 </head>
 
 <body style="background-color:#f3d5b6; color:#2b2b2b;">
+    <!-- REGISTRATION ANNOUNCEMENT BANNER -->
+    <div class="announcement-banner" id="announcementBanner">
+    <span class="announcement-text">
+        🎉 CAMP PEACH REGISTRATION IS <strong>OPEN</strong>!
+    </span>
+
+    <a class="announcement-btn"
+        href="https://docs.google.com/forms/d/e/1FAIpQLSesHrUMaj4vIaBo0nHo1dAhKQggpNBpByMzlYoxqPdNe4hI_Q/viewform?usp=dialog">
+        SiGN UP
+    </a>
+
+    <button class="announcement-close"
+            id="dismissAnnouncement"
+            aria-label="Dismiss announcement">
+        ✕
+    </button>
+    </div>
 
     <a class="skip-link" href="#main">Skip to main content</a>
 
@@ -88,15 +105,17 @@
         </p>
 
         <!-- Button for Registration -->
-         <div class = "regi-button">
-            <button style="background-color: #e5989b;">
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSesHrUMaj4vIaBo0nHo1dAhKQggpNBpByMzlYoxqPdNe4hI_Q/viewform?usp=dialog">      SIGN UP      </a>
-            </button>
+        <div class="regi-button">
+            <p>This year's theme is Fruits of the Spirit!</p>
+            <a class="regi-cta"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSesHrUMaj4vIaBo0nHo1dAhKQggpNBpByMzlYoxqPdNe4hI_Q/viewform?usp=dialog">
+                SIGN UP
+            </a>
             <p>We can't wait to see you this summer!</p>
         </div>
 
         <div id="pastimg" class="center">
-            <video width="100%" class="video-container" autoplay muted loop controls
+            <video class="video-container" autoplay muted loop controls
                 aria-label="Camp PEACH montage video showing camp activities">
                 <source src="assets/index/montage.mp4" type="video/mp4">
                 Your browser does not support this video. Please watch our camp montage on Camp PEACH's official
@@ -118,7 +137,7 @@
         <p>&copy; 2025 Camp PEACH. All rights reserved.</p>
     <p><a href="contact.html" style="color:#e5989b; text-decoration:underline;">Contact Us</a></p>
     </footer>
-
+    <script src="js/announcement.js"></script>
     <script src="js/menu.js"></script>
 
 </body>

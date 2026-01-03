@@ -7,15 +7,15 @@
 
     <!-- SEO Meta Tags -->
     <meta name="description"
-        content="Learn more about Camp PEACH! — schedules, dates, and important information for parents and campers ages 4–7.">
-    <meta name="keywords" content="Camp Peach, kids summer camp, camp schedule, camp information, ages 4-7">
+        content="Learn more about Camp PEACH! — schedules, dates, and important information for parents and campers ages 2-9.">
+    <meta name="keywords" content="Camp Peach, kids summer camp, camp schedule, camp information, ages 2-9">
     <meta name="author" content="Camp PEACH Team">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Open Graph (Social Media SEO) -->
     <meta property="og:title" content="Camp PEACH! - Camp Information">
     <meta property="og:description"
-        content="Find schedules, tentative dates, and important details about Camp PEACH for kids ages 4–7.">
+        content="Find schedules, tentative dates, and important details about Camp PEACH for kids ages 2–9.">
     <meta property="og:image" content="assets/peach1.png">
     <meta property="og:url" content="https://doodlena.github.io/info.html">
     <meta property="og:type" content="website">
@@ -23,7 +23,7 @@
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Camp PEACH! - Camp Information">
-    <meta name="twitter:description" content="Schedules and dates for Camp PEACH summer camp for children ages 4–7.">
+    <meta name="twitter:description" content="Schedules and dates for Camp PEACH summer camp for children ages 2–9.">
     <meta name="twitter:image" content="assets/peach1.png">
 
     <!-- Fonts -->
@@ -38,6 +38,23 @@
 </head>
 
 <body class="page-body">
+    <!-- REGISTRATION ANNOUNCEMENT BANNER -->
+    <div class="announcement-banner" id="announcementBanner">
+    <span class="announcement-text">
+        🎉 CAMP PEACH REGISTRATION IS <strong>OPEN</strong>!
+    </span>
+
+    <a class="announcement-btn"
+        href="https://docs.google.com/forms/d/e/1FAIpQLSesHrUMaj4vIaBo0nHo1dAhKQggpNBpByMzlYoxqPdNe4hI_Q/viewform?usp=dialog">
+        SiGN UP
+    </a>
+
+    <button class="announcement-close"
+            id="dismissAnnouncement"
+            aria-label="Dismiss announcement">
+        ✕
+    </button>
+    </div>
     <a class="skip-link" href="#main">Skip to main content</a>
 
     <!-- NAVIGATION (unchanged) -->
@@ -89,7 +106,7 @@
             <p class="schedule-text">
                 Curious about a day at Camp PEACH? Check out our sample schedule below!
                 Every session is packed with engaging activities, creative projects,
-                and outdoor adventures designed for kids ages 4–7.
+                and outdoor adventures designed for kids ages 2–9.
                 Visit our <a href="past.html" class="schedule-link">Activities Page</a> to learn
                 more.
             </p>
@@ -125,7 +142,7 @@
         <p>&copy; 2025 Camp PEACH. All rights reserved.</p>
     <p><a href="contact.html" class="footer-link">Contact Us</a></p>
     </footer>
-
+    <script src="js/announcement.js"></script>
     <script src="js/menu.js"></script>
 
 </body>
