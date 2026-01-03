@@ -7,8 +7,8 @@
 
     <!-- SEO Meta Tags -->
     <meta name="description"
-        content="Get in touch with Camp PEACH! or join our mailing list to stay updated on camp schedules, registration dates, and exciting activities for kids ages 4–7.">
-    <meta name="keywords" content="Camp Peach, summer camp contact, join mailing list, kids camp ages 4-7">
+        content="Get in touch with Camp PEACH! or join our mailing list to stay updated on camp schedules, registration dates, and exciting activities for kids ages 2–9.">
+    <meta name="keywords" content="Camp Peach, summer camp contact, join mailing list, kids camp ages 2-9">
     <meta name="author" content="Camp PEACH Team">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -38,6 +38,23 @@
 </head>
 
 <body class="page-body">
+    <!-- REGISTRATION ANNOUNCEMENT BANNER -->
+    <div class="announcement-banner" id="announcementBanner">
+    <span class="announcement-text">
+        🎉 CAMP PEACH REGISTRATION IS <strong>OPEN</strong>!
+    </span>
+
+    <a class="announcement-btn"
+        href="https://docs.google.com/forms/d/e/1FAIpQLSesHrUMaj4vIaBo0nHo1dAhKQggpNBpByMzlYoxqPdNe4hI_Q/viewform?usp=dialog">
+        SiGN UP
+    </a>
+
+    <button class="announcement-close"
+            id="dismissAnnouncement"
+            aria-label="Dismiss announcement">
+        ✕
+    </button>
+    </div>
     <a class="skip-link" href="#main">Skip to main content</a>
 
     <!-- NAVIGATION -->
@@ -110,6 +127,7 @@
         </div>
 
     <!-- External JS file -->
+    <script src="js/announcement.js"></script>
     <script src="js/script.js"></script>
     <script src="js/menu.js"></script>
     </section>

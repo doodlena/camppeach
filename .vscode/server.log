@@ -1,76 +1,27 @@
-127.0.0.1 - - [01/Jan/2026 19:23:00] "GET /html/index.html HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 19:23:02] "GET /html/index.html HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 19:23:02] "GET /html/css/style.css HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 19:23:02] "GET /html/assets/peach1.png HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 19:23:02] "GET /html/assets/index/slides/slide1.jpg HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 19:23:02] "GET /html/js/slide.js HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 19:23:02] "GET /html/js/menu.js HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 19:23:02] "GET /html/js/config.js HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 19:23:02] "GET /html/js/photo.js HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 19:23:02] "GET /html/assets/index/slides/slide2.jpg HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 19:23:02] "GET /html/assets/index/slides/slide3.jpg HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 19:23:02] "GET /html/assets/index/who-r-we.jpg HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 19:23:02] "GET /html/assets/index/montage.mp4 HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 19:23:03] code 404, message File not found
-127.0.0.1 - - [01/Jan/2026 19:23:03] "GET /favicon.ico HTTP/1.1" 404 -
-127.0.0.1 - - [01/Jan/2026 19:23:03] "GET /html/regi.html HTTP/1.1" 200 -
-----------------------------------------
-Exception occurred during processing of request from ('127.0.0.1', 57434)
-Traceback (most recent call last):
-  File "/home/codespace/.python/current/lib/python3.12/socketserver.py", line 692, in process_request_thread
-    self.finish_request(request, client_address)
-  File "/home/codespace/.python/current/lib/python3.12/http/server.py", line 1311, in finish_request
-    self.RequestHandlerClass(request, client_address, self,
-  File "/home/codespace/.python/current/lib/python3.12/http/server.py", line 672, in __init__
-    super().__init__(*args, **kwargs)
-  File "/home/codespace/.python/current/lib/python3.12/socketserver.py", line 761, in __init__
-    self.handle()
-  File "/home/codespace/.python/current/lib/python3.12/http/server.py", line 436, in handle
-    self.handle_one_request()
-  File "/home/codespace/.python/current/lib/python3.12/http/server.py", line 424, in handle_one_request
-    method()
-  File "/home/codespace/.python/current/lib/python3.12/http/server.py", line 679, in do_GET
-    self.copyfile(f, self.wfile)
-  File "/home/codespace/.python/current/lib/python3.12/http/server.py", line 878, in copyfile
-    shutil.copyfileobj(source, outputfile)
-  File "/home/codespace/.python/current/lib/python3.12/shutil.py", line 204, in copyfileobj
-    fdst_write(buf)
-  File "/home/codespace/.python/current/lib/python3.12/socketserver.py", line 840, in write
-    self._sock.sendall(b)
-BrokenPipeError: [Errno 32] Broken pipe
-----------------------------------------
-127.0.0.1 - - [01/Jan/2026 19:25:37] "GET /html/regi.html HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 19:25:37] "GET /html/css/style.css HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 19:26:04] "GET /html/regi.html HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 19:26:04] "GET /html/css/style.css HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 19:26:14] "GET /html/regi.html HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 19:27:06] "GET /html/regi.html HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 19:27:06] "GET /html/css/style.css HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 19:27:06] "GET /html/assets/index/montage.mp4 HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 19:29:32] "GET /html/regi.html HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 19:29:33] "GET /html/css/style.css HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 19:29:33] "GET /html/assets/index/montage.mp4 HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 19:29:50] "GET /html/regi.html HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 19:29:50] "GET /html/css/style.css HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 19:29:50] "GET /html/assets/index/montage.mp4 HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 19:30:01] "GET /html/regi.html HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 19:30:01] "GET /html/css/style.css HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 19:30:01] "GET /html/assets/index/montage.mp4 HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 19:30:15] "GET /html/regi.html HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 19:30:15] "GET /html/css/style.css HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 19:30:15] "GET /html/assets/index/montage.mp4 HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 19:30:34] "GET /html/regi.html HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 19:30:34] "GET /html/css/style.css HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 19:30:34] "GET /html/assets/peach1.png HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 19:30:34] "GET /html/js/menu.js HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 19:30:34] "GET /html/assets/index/montage.mp4 HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 19:31:02] "GET /html/index.html HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 19:31:02] "GET /html/css/style.css HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 19:31:02] "GET /html/js/slide.js HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 19:31:02] "GET /html/assets/index/slides/slide1.jpg HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 19:31:02] "GET /html/js/config.js HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 19:31:02] "GET /html/js/photo.js HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 19:31:02] "GET /html/assets/index/montage.mp4 HTTP/1.1" 200 -
-127.0.0.1 - - [01/Jan/2026 19:31:02] "GET /html/assets/index/slides/slide3.jpg HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 19:31:02] "GET /html/assets/index/slides/slide2.jpg HTTP/1.1" 304 -
-127.0.0.1 - - [01/Jan/2026 19:31:02] "GET /html/assets/index/who-r-we.jpg HTTP/1.1" 304 -
+127.0.0.1 - - [03/Jan/2026 01:54:14] "GET /html/index.html HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2026 01:54:15] "GET /html/index.html HTTP/1.1" 304 -
+127.0.0.1 - - [03/Jan/2026 01:54:15] "GET /html/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [03/Jan/2026 01:54:16] "GET /html/js/announcement.js HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2026 01:54:16] "GET /html/assets/index/montage.mp4 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2026 01:54:16] code 404, message File not found
+127.0.0.1 - - [03/Jan/2026 01:54:16] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [03/Jan/2026 01:54:31] "GET /html/index.html HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2026 01:54:31] "GET /html/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [03/Jan/2026 01:54:31] "GET /html/js/announcement.js HTTP/1.1" 304 -
+127.0.0.1 - - [03/Jan/2026 01:54:31] "GET /html/assets/index/montage.mp4 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2026 01:54:56] "GET /html/index.html HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2026 01:54:56] "GET /html/css/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2026 01:54:56] "GET /html/js/announcement.js HTTP/1.1" 304 -
+127.0.0.1 - - [03/Jan/2026 01:54:56] "GET /html/assets/index/montage.mp4 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2026 01:55:10] "GET /html/index.html HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2026 01:55:10] "GET /html/css/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2026 01:55:10] "GET /html/js/announcement.js HTTP/1.1" 304 -
+127.0.0.1 - - [03/Jan/2026 01:55:10] "GET /html/assets/index/montage.mp4 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2026 01:57:49] "GET /html/index.html HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2026 01:57:49] "GET /html/css/style.css HTTP/1.1" 304 -
+127.0.0.1 - - [03/Jan/2026 01:57:49] "GET /html/js/announcement.js HTTP/1.1" 304 -
+127.0.0.1 - - [03/Jan/2026 01:57:50] "GET /html/assets/index/montage.mp4 HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2026 01:57:52] "GET /html/about.html HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2026 01:57:55] "GET /html/past.html HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2026 01:57:56] "GET /html/info.html HTTP/1.1" 200 -
+127.0.0.1 - - [03/Jan/2026 01:57:59] "GET /html/past.html HTTP/1.1" 200 -
